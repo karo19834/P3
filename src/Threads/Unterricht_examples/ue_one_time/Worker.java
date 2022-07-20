@@ -3,7 +3,7 @@ package Threads.Unterricht_examples.ue_one_time;
 import java.util.Date;
 
 public class Worker implements Runnable{
-    private final int sleepInterval = 2000; //msec = 1 SEK
+    private final int sleepInterval = 2000; //msec = 2 SEK
     private boolean isRunning = true;
 
     public void requestShutDown() {
